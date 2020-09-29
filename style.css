@@ -1,0 +1,240 @@
+h1 { color: red;
+text-align: center;
+text-shadow: 4PX 4PX 2PX rgb(29, 6, 6);}
+
+.H { color: royalblue;}
+
+#D { color: rgb(241, 9, 40);}
+
+.CONTAINER { border: 5px solid red;}
+
+.NAVIGATION { background-color: gray;
+             border: 5PX solid red; 
+             margin: 50px 10px 20px 15px;
+             padding: 0px 0px 0px 0px;
+             /*justify-content: space-between;*/}
+
+             .tere { color: rgb(19, 221, 103)}
+
+             .box {
+                height: 200px; 
+                width: 200px; 
+                background-color: rgb(105, 105, 156);
+                margin: 10px;
+               }
+
+               @keyframes fadeMe { 0% {opacity: 1 ;}
+                                  100% { opacity: 0;} }
+
+                #pix1 { animation-name: fadeMe;
+                        animation-duration: 4s;
+                        animation-iteration-count: infinite;
+                        animation-timing-function: linear;}
+
+                      @keyframes rotation { 
+                      0% {TRANSFORM: rotate(0deg);}
+                      50%{TRANSFORM: rotate(180deg);}
+                      100%{TRANSFORM: rotate(360deg);}}
+
+                     @keyframes getbigger {0% {transform: scale(1)}
+                                           50% {transform: scale(2)}
+                                           100% {transform: scale(0.5)}}
+
+                     #box5 {animation: getbigger 3s infinite ease-in-out;
+                                                  border-radius: 50%;
+                                                  background-color: tomato;}
+
+                    @keyframes changeColors {0%{background-color: yellowgreen;}
+                                             15%{background-color: rgb(219, 17, 17);}
+                                             25%{background-color: rgb(68, 16, 211);}
+                                             35%{background-color: rgb(50, 205, 109);}
+                                             50%{background-color: rgb(18, 143, 216);} }
+
+                                             #box4 {animation: changeColors 3s infinite;
+                                                    border-radius: 50%;}
+
+                    @keyframes moveBox {0%{left: 0px; right: 1200;}
+                                        25%{right: 1200px; top: 0px;}
+                                        50%{left: 100px; top: 200px;}
+                                        75%{left: 0px; top: 200px;}
+                                        100%{left: 0px; top: 0px;}}
+
+                                        #box2 {position: fixed; 
+                                               }
+
+
+         form input, textarea, button {display: block;
+                                       margin: 50px;
+
+         }
+
+         .box b { background-color: crimson;}
+
+
+   .nav-wrapper {background-color: brown;}              
+      
+      
+/*body { background-image: url(church1.jpg);}*/
+
+
+
+                     /*#BUMBLE {animation: moveBox 5s infinite;
+                            background-color: wheat;
+                            border-radius: 50%;
+                            position: relative;}*/
+
+                            #BUMBLE2 {animation: moveBox 5s infinite;
+                              background-color: wheat;
+                              border-radius: 50%;
+                              position: relative;}
+
+
+
+                                 #box6 { animation-name: rotation;
+                                        animation-duration: 0.001s;
+                                        animation-iteration-count: infinite;
+                                         animation-timing-function: ease-in-out;
+                                        border-radius: 10%;
+                                        background-image: radial-gradient(circle, purple, black, orange, yellow, blue, rgb(7, 4, 4));}
+
+                                    
+
+                                #box6 {border-radius: 50%;}
+               #pix1 {box-shadow: 15px 5px 10px;
+                      border-radius: 30%;}
+                      #pix2 {box-shadow: 15px 5px 10px;
+                         border-radius: 30%;}
+                      #pix3 {box-shadow: 15px 5px 10px;
+                         border-radius: 50%;}
+                         #pix4 {box-shadow: 15px 5px 10px;
+                              border-radius: 50%;}
+                              #pix5 {box-shadow: 15px 5px 10px;
+                                   border-radius: 30%;}
+                                   #pix6 {box-shadow: 15px 5px 10px;
+                                        border-radius: 30%;}
+
+            .flex { 
+                margin: 30px;
+                border: 3px solid black;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                flex-direction: column-reverse;
+                /*flex-direction: row-reverse;*/
+                /*padding: 300px;*/}
+
+                 .pixs {background-color: cornsilk;
+                      margin: 30px; 
+                        border: 3px solid black;
+                       display: flex;
+                       flex-wrap: wrap;                       
+                       /*justify-content: center*/
+                       justify-content: space-around;}
+
+                         .pix {
+                              height: 200px; 
+                              width: 200px; 
+                              background-color: rgb(105, 105, 156);
+                              margin: 10px;}         
+                                   
+                    
+
+                .input-field {margin: 20px;}
+                
+                .contact-box{ display: flex;
+                              justify-content: right;}
+                .row {margin: 30px;} 
+
+                .btn waves-effect waves-light{ display: flex;}
+
+                nav {background-color: seagreen;
+                     text-align: center;}
+
+                     a { text-decoration: none;}B
+
+                     nav ul { list-style: none;}
+
+                     nav li { display: inline-block;
+                              padding: 30px;}
+
+                              /* img {border-radius: 50%;
+                                   box-shadow: 15px 5px 10px 15PX green;} */
+
+                               
+
+                           
+
+                              .BUNBLE {border-radius: 50%;}
+
+                        
+                             
+                                 
+                                 .wrapper {
+                                         display: grid;
+                                     grid-gap: 10px; margin: 40px;
+                                         grid-template-columns: repeat(5, [col] 30%) ;
+                                         grid-template-rows: repeat(3, [row] auto  );
+                                         background-color: #fff;
+                                         color: #444;
+                                     }
+                                 
+                                     .Box {
+                                         background-color:yellow;
+                                         color: #fff;
+                                         border-radius: 5px;
+                                         padding: 20px;
+                                         font-size: 150%;
+                                         z-index:10;
+                                 
+                                     }
+                                 
+                                     .a{ grid-column: col / span  2;
+                                         z-index: 20;
+                                         grid-row: row ;
+                                         display: flex;
+                                         justify-content: center;
+                                         background-image: linear-gradient(red blue yellow pink);
+                                         
+                                     }
+                                     .b{
+                                         grid-column: col 4 / span  2 ;
+                                         grid-row: row ;
+                                         display: flex;
+                                         justify-content: center;
+                                     }
+                                     .c{
+                                         grid-column: col / span 5 ;
+                                         grid-row: row 2 ;
+                                         display: flex;
+                                         justify-content: center;
+                                         background-image: linear-gradient(red blue yellow pink);
+                                         
+                                         
+                                     }
+                                     .d{
+                                         grid-column: col  / span  3 ;
+                                         grid-row: row 3 ;
+                                         display: flex;
+                                         justify-content: center;
+                                     }
+                                 
+                                     .e{
+                                         grid-column: col 3 / span  3;
+                                         grid-row: row 3;
+                                         display: flex;
+                                         justify-content: center;
+                                     }
+                                 
+                                     .f{
+                                         grid-column: col 2 / span 3;
+                                         grid-row: row 2  ;
+                                         background-color: rgba(49,121,207, 0.5);
+                                         z-index: 20;
+                                         display: flex;
+                                         justify-content: center;
+                                         background-image: linear-gradient(red blue yellow pink);
+                                          
+                                     }
+                              
+
+                            
